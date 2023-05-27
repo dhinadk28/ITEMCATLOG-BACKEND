@@ -7,7 +7,7 @@ const cors = require("cors");
 const path = require("path");
 
 app.use(cors({
-  origin: 'https://catlog-frontend.vercel.app',
+  origin: 'https://catlog-frontend-5n438vyz4-dhinadk28.vercel.app/',
   credentials: true
 }));
 
