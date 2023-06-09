@@ -7,7 +7,7 @@ const cors = require("cors");
 const path = require("path");
 
 app.use(cors({
-  origin: 'https://catlog-frontend.vercel.app',
+  origin: 'http://localhost:3000',
   credentials: true
 }));
 
